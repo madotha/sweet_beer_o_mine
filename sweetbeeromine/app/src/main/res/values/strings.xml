@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Sweet Beer O\' Mine</string>
+    <string name="app_name_short">SBOM</string>
+    <string name="sample_string">This is a sample</string>
+
+    <!-- Activity Titles -->
+    <string name="trophies">Statistics</string>
+    <string name="add_beer">Add Beer</string>
+    <string name="edit_beer">Edit Beer</string>
+    <string name="details_beer">Beer Details</string>
+    <string name="copyright">Copyright</string>
+
+
+    <!-- Menu Buttons Strings -->
+    <string name="actionBar_edit">Edit</string>
+    <string name="actionbar_copyright">Copyright</string>
+    <string name="actionBar_trophies">Statistics</string>
+
+    <!-- Attribute Strings for Add / Edit / Detail Views-->
+    <string name="attribute_brewery">Brewery</string>
+    <string name="attribute_beer_name">Beer Name</string>
+    <string name="attribute_beer_type">Beer Type</string>
+    <string name="attribute_country">Origin Country</string>
+    <string name="attribute_notes">Personal Notes</string>
+
+    <!-- AddView Strings -->
+    <string name="txtAddView_cancelButton">Cancel</string>
+    <string name="txtAddView_saveButton">Add</string>
+    <string name="txtAddView_editImageButtons">Change Image</string>
+    <string name="txtAddView_takePicButton">Take Picture</string>
+
+    <!-- EditView Strings -->
+    <string name="txtEditView_deleteButton">Delete Beer</string>
+    <string name="txtEditView_cancelButton">Cancel</string>
+    <string name="txtEditView_saveButton">Save</string>
+    <string name="txtEditView_editImageButtons">Change Image</string>
+    <string name="txtEditView_takePicButton">Take Picture</string>
+
+    <!-- TrophiesView Strings -->
+    <string name="txtTrophies_stats01">You already know</string>
+    <string name="txtTrophies_stats02"> Beers from </string>
+    <string name="txtTrophies_stats03"> different Countries!</string>
+    <string name="txtTrophies_shareButton">Share your Stats!</string>
+    <string name="txtTrophies_shareStats01">I already know </string>
+    <string name="txtTrophies_shareStatsExtra">" Download Sweet Beer O' Mine and share your Beer Stats with your friends!"</string>
+    <string name="txtTrophies_shareText">Shave via</string>
+
+    <!-- CopyrightActivity Strings -->
+    <string name="txtCopyright_ApplicationIcon">The Application Icon was made by Freepik from www.flaticon.com</string>
+    <string name="txtCopyright_CopyrightText">This Application was created during a project in the
+        \"Mobile Programming\" course at the Hochschule Luzern, \n
+        by David Gut and Maurin D. Thalmann.</string>
+
+
+</resources>

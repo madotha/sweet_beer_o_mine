@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Süss Bier O\' Meins</string>
+    <string name="actionBar_edit">Bearbeiten</string>
+    <string name="actionBar_trophies">Statistiken</string>
+    <string name="attribute_beer_name">Biername</string>
+    <string name="attribute_beer_type">Biertyp</string>
+    <string name="attribute_brewery">Brauerei</string>
+    <string name="attribute_country">Herkunftsland</string>
+    <string name="attribute_notes">Persönliche Notizen</string>
+    <string name="sample_string">Dies ist ein Beispiel</string>
+    <string name="txtAddView_cancelButton">Abbrechen</string>
+    <string name="txtAddView_editImageButtons">Bild ändern</string>
+    <string name="txtAddView_saveButton">Hinzufügen</string>
+    <string name="txtAddView_takePicButton">Bild aufnehmen</string>
+    <string name="txtEditView_cancelButton">Abbrechen</string>
+    <string name="txtEditView_deleteButton">Bier löschen</string>
+    <string name="txtEditView_editImageButtons">Bild ändern</string>
+    <string name="txtEditView_saveButton">Speichern</string>
+    <string name="txtEditView_takePicButton">Bild aufnehmen</string>
+    <string name="txtTrophies_shareButton">Teile deine Statistiken!</string>
+    <string name="txtTrophies_shareStats01">Ich kenne schon</string>
+    <string name="txtTrophies_shareStatsExtra">\nLade \"Sweet Beer O\' Mine\" herunter und teile deine Bierstatistiken mit deinen Freunden!</string>
+    <string name="txtTrophies_stats01">Du kennst schon</string>
+    <string name="txtTrophies_stats02">Biere aus</string>
+    <string name="txtTrophies_stats03">verschiedenen Ländern!</string>
+    <string name="app_name_short">SBOM</string>
+    <string name="add_beer">Bier hinzufügen</string>
+    <string name="details_beer">Bierinformationen</string>
+    <string name="edit_beer">Bier bearbeiten</string>
+    <string name="trophies">Statistiken</string>
+    <string name="txtTrophies_shareText">Teile über</string>
+    <string name="actionbar_copyright">Copyright</string>
+    <string name="copyright">Copyright</string>
+    <string name="txtCopyright_ApplicationIcon">Das Applikations-Icon wurde erstellt von Freepik auf www.flaticon.com</string>
+    <string name="txtCopyright_CopyrightText">Diese Applikation wurde im Rahmen eines Projekts im
+        Modul \"Mobile Programming\" an der Hochschule erstellt, \n
+        von David Gut und Maurin D. Thalmann.</string>
+</resources>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addView_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorActivityBackground"
+    tools:context=".AddBeerActivity">
+
+    <!-- Preview Image for ImageView -->
+    <ImageView
+        android:id="@+id/addView_image"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher" />
+
+    <!-- Brewery: Title -->
+    <TextView
+        android:id="@+id/addView_title_brewery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/colorTitleText"
+        android:text="@string/attribute_brewery"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Brewery: Content -->
+    <EditText
+        android:id="@+id/addView_edit_brewery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="8"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorContentText"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addView_title_brewery" />
+
+    <!-- Beer Name: Title -->
+    <TextView
+        android:id="@+id/addView_title_beername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/colorTitleText"
+        android:text="@string/attribute_beer_name"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addView_edit_brewery" />
+
+    <!-- Beer Name: Content -->
+    <EditText
+        android:id="@+id/addView_edit_beername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="8"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorContentText"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addView_title_beername" />
+
+    <!-- Beer Type: Title -->
+    <TextView
+        android:id="@+id/addView_title_beertype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/colorTitleText"
+        android:text="@string/attribute_beer_type"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addView_edit_beername" />
+
+    <!-- Beer Type: Content -->
+    <EditText
+        android:id="@+id/addView_edit_beertype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="8"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorContentText"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addView_title_beertype" />
+
+    <!-- Country: Title -->
+    <TextView
+        android:id="@+id/addView_title_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/colorTitleText"
+        android:text="@string/attribute_country"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addView_edit_beertype" />
+
+    <!-- Country: Content -->
+    <EditText
+        android:id="@+id/addView_edit_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="8"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorContentText"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addView_title_country" />
+
+    <!-- Personal Notes: Title -->
+    <TextView
+        android:id="@+id/addView_title_notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/colorTitleText"
+        android:text="@string/attribute_notes"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addView_edit_country" />
+
+    <!-- Personal Notes: Content -->
+    <EditText
+        android:id="@+id/addView_edit_notes"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="90dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorContentText"
+        android:inputType="textMultiLine"
+        android:maxHeight="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addView_title_notes" />
+
+    <!-- Button to load image from the gallery -->
+    <Button
+        android:id="@+id/addView_editImageButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:padding="16dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/txtAddView_editImageButtons"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addView_image" />
+
+    <!-- Button to take picture with the camera -->
+    <Button
+        android:id="@+id/addView_takePicButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/txtAddView_takePicButton"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addView_editImageButton" />
+
+    <!-- CANCEL Button -->
+    <Button
+        android:id="@+id/addView_cancelButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="143dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/txtAddView_cancelButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- ADD Button -->
+    <Button
+        android:id="@+id/addView_saveButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="143dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/txtAddView_saveButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

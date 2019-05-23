@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors (ActionBar and Buttons) -->
+    <color name="colorPrimary">#EF6A00</color>
+    <color name="colorPrimaryDark">#944200</color>
+    <color name="colorActionBarText">#FFFFFF</color>
+
+    <!-- Color for in-Activity-Buttons -->
+    <color name="colorAccent">#EF6A00</color>
+
+    <!-- Colors only for the MainActivity-->
+    <color name="colorMainBackground">#944200</color>
+
+    <!-- Colors for the CardView -->
+    <color name="colorCardBackground">#FFA359</color>
+    <color name="colorCardText">#441C00</color>
+
+    <!-- Colors for TrophiesActivity -->
+    <color name="colorTrophiesBackground">#BE5400</color>
+    <color name="colorTrophiesText">#FFEDDD</color>
+
+    <!-- Colors for all other Activities -->
+    <color name="colorActivityBackground">#944200</color>
+    <color name="colorTitleText">#FFA359</color>
+    <color name="colorContentText">#FFEDDD</color>
+
+
+
+
+</resources>
