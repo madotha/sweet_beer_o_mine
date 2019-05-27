@@ -9,6 +9,12 @@ You can share your stats with friends if you want to brag about it.
 It is localized for English and German (Switzerland).
 
 **Components**:
-- Android Debug Database (https://github.com/amitshekhariitbhu/Android-Debug-Database)
-- Room DB
-- Live Data
+
+* [Android Debug Database](https://github.com/amitshekhariitbhu/Android-Debug-Database)
+* Room DB
+* Live Data
+
+**Copyright by**
+
+* [David Gut (Jabba-The-Gut)](https://github.com/Jabba-The-Gut)
+* [Maurin Thalmann (madotha)](https://github.com/madotha)
